@@ -1,0 +1,39 @@
+{
+  "name": "sc-to-bem",
+  "version": "0.0.1",
+  "description": "Convert Styled Components to BEM",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:@babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentmclark/sc-to-bem.git"
+  },
+  "keywords": [
+    "Styled",
+    "Components",
+    "Bem"
+  ],
+  "author": "brentmclark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brentmclark/sc-to-bem/issues"
+  },
+  "homepage": "https://github.com/brentmclark/sc-to-bem#readme",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/register": "^7.0.0",
+    "esprima": "^4.0.1",
+    "mocha": "^5.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "babel-plugin-styled-components": "^1.10.0"
+  }
+}
